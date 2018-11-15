@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Drawing.Imaging;
@@ -12,7 +12,7 @@ namespace GenerateBitmapTest
             var bmap = GenerateBitmap("TEST");
             bmap.Save("image.jpg");
 
-            Console.WriteLine("Press any key...");
+            Console.WriteLine("Press any key, then find and open 'image.jpg'...");
             Console.ReadKey();
         }
 
